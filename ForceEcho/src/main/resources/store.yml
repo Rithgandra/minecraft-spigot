@@ -1,0 +1,5 @@
+items:
+  diamond_sword:
+    material: DIAMOND_SWORD
+    name: "&bEpic Sword"
+    price: 500

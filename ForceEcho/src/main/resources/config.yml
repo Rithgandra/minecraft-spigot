@@ -1,0 +1,12 @@
+# Default config for ForceEcho economy plugin
+
+default-balance: 100.0
+
+store:
+  items:
+    diamond_sword:
+      price: 500
+      name: "&bEpic Sword"
+    iron_pickaxe:
+      price: 250
+      name: "&aIron Pickaxe"

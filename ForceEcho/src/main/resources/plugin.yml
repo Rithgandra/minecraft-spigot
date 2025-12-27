@@ -1,0 +1,22 @@
+name: EconomyCore
+version: 1.0
+main: me.wyrmforce.forceEcho.ForceEcho
+api-version: 1.20
+depend: [Vault]
+
+commands:
+  bal:
+    description: Check balance
+  pay:
+    description: Pay another player
+  store:
+    description: Open store
+  ecoadmin:
+    description: Admin commands for economy
+    usage: /ecoadmin <add|remove|set|bankadd|bankremove|reset> <player> <amount>
+    permission: forceecho.admin
+    permissions:
+      forceecho.admin:
+        description: Allows full admin control over the economy
+        default: op
+
